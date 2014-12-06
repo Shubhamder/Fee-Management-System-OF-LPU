@@ -3,7 +3,7 @@
 void main()
 {
 int a;
-printf("fee details \n1.) BCA Fee details\n2.)MCA fee details");
+printf("fee details \n1.) BCA Fee details\n2.)MCA fee details\nMCA(honors) fee details");
 printf("enter user choice");
 scanf("%d",&a);
 switch(a)
@@ -13,6 +13,9 @@ printf("BCA Selected\nSemester fee:29500\nExam fee:1500persem");
 break;
 case 2:
 printf("MCA Selected\nSemester fee:69500\nExam fee:1500persem");
+break;
+case 3:
+printf("MCA(honors) Selected\nSemester fee:79500\nExam fee:1500persem");
 break;
 default:
 printf("Wrong Choice");
