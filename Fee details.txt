@@ -21,6 +21,5 @@ default:
 printf("Wrong Choice");
 break;
 }
-printf("\nThank you for visit");
-getche();
+getch();
 }
